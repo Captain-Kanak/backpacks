@@ -32,12 +32,12 @@ export default function RootLayout({
         <header>
           <Navbar />
         </header>
-        <main>
+        <main className="pt-20 min-h-screen">
           {children}
         </main>
-        <footer>
+        {/* <footer>
           <Footer />
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
